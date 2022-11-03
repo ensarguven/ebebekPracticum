@@ -14,12 +14,10 @@ public class manavKasaProgramý {
 		float domates;
 		float muz;
 		float patlican;
-	
 		double sonuc;
 		
-		
 		/*
-		 *  Armut : 2,14 TL
+		    Armut : 2,14 TL
 			Elma : 3,67 TL
 			Domates : 1,11 TL
 			Muz: 0,95 TL
@@ -45,12 +43,7 @@ public class manavKasaProgramý {
 		
 		sonuc = 2.14*armut + 3.67*elma + 1.11*domates + 0.95*muz + 5*patlican;
 		
-		System.out.println("Toplam hesabýnýz : "+ sonuc);
-		
-		//armut = input.nextFloat();
-		
-		
-		
+		System.out.println("Toplam hesabýnýz : "+ sonuc);		
 
 	}
 
