@@ -10,26 +10,24 @@ public class ucakBiletiHesaplama {
 		
 		float mesafe;
 		int yas;
-		int yolculukTipi;
 		float yasIndirimi;
 		float normalTutar;
 		float indirimliTutar =0;
-		int yolculukTipi1;
+		int yolculukTipi1 =0;
 		float gidisDonusBiletIndirimi;
 		float toplamTutar;
-		
-	
 		
 		System.out.print("Gideceginiz mesafeyi km olarak giriniz :  ");
 		mesafe = input.nextFloat();
 		normalTutar = (float) (mesafe*0.10) ;
 		
-		System.out.print("Yasýnýzý giriniz : ");
+		System.out.print("Yasinizi giriniz : ");
 		yas = input.nextInt();
 		
-		
-		
-		if(yas >0 & mesafe >0  )
+		System.out.print("yolculuk tipinizi giriniz : ");
+		yolculukTipi1 = input.nextInt();
+			
+		if(yas >0 & mesafe >0 & (yolculukTipi1 ==1 || yolculukTipi1 ==2 )) // hatali girise engel oluyoruz.
 		{
 			System.out.println("Normal Tutar : "+normalTutar);
 		
@@ -51,10 +49,9 @@ public class ucakBiletiHesaplama {
 				System.out.println("Indirimli Tutar " + indirimliTutar);
 					
 			}
-			System.out.print("yolculuk tipinizi giriniz : ");
-			yolculukTipi1 = input.nextInt();
 			
-			switch(yolculukTipi1) {
+			
+			switch(yolculukTipi1) {   //yolculuk tipine gore indirim
 			
 			case 1:
 				System.out.println("Toplam Tutar :"+indirimliTutar);
@@ -65,7 +62,7 @@ public class ucakBiletiHesaplama {
 				gidisDonusBiletIndirimi = indirimliTutar * 20/100;
 				toplamTutar = indirimliTutar - gidisDonusBiletIndirimi;
 				
-				System.out.println("Gidis Dönüþ Bileti Ýndirimi : " +gidisDonusBiletIndirimi);
+				System.out.println("Gidis Dönüs Bileti Indirimi : " +gidisDonusBiletIndirimi);
 				System.out.println("Toplam tutar :"+ toplamTutar);
 			
 			}		
