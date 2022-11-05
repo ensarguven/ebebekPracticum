@@ -8,16 +8,18 @@ public class MinVeMaxBulma {
 		Scanner input = new Scanner(System.in);
 		 int x;
 		 int min, max;
-		 int enKucuk;
 		 System.out.print("Kaç tane sayi gireceksiniz: ");
 		 x= input.nextInt();
 		 
 		 int[] dizi = new int[x];
-		 
-		 
-
+		
+		
 	        for (int i = 0; i < dizi.length; i++) {
-	            dizi[i] = input.nextInt();
+	        	System.out.print(i+1+".sayýyý giriniz: ");
+	        	
+	        	dizi[i] = input.nextInt();
+	            //System.out.println(i+1+".sayiyi giriniz: "+dizi[i] );
+	            
 	        }
 	 
 	        max = dizi[0];
@@ -30,8 +32,8 @@ public class MinVeMaxBulma {
 	        	}
 	        }
 	 
-	        System.out.println("en kucuk: "+min);
-	        System.out.println("en buyuk: "+max);
+	        System.out.println("En kucuk: "+min);
+	        System.out.println("En buyuk: "+max);
 
 					 
 			 
