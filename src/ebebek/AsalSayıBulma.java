@@ -1,6 +1,6 @@
 package ebebek;
 
-public class AsalSayıBulma {
+public class AsalSayÃ½Bulma {
 
 	public static void main(String[] args) {
 		
@@ -12,8 +12,8 @@ public class AsalSayıBulma {
 			 for(int n=2; n<i; n++) {
 
 				 if(i%n==0) {
-					 jump=1;  //asal olmadığı anlaşılıyor
-					 break;  //ic döngüden cıkıyoruz.
+					 jump=1;  //asal olmadigi anlasiliyor
+					 break;  //ic dÃ¶ngÃ¼den cikiyoruz.
 				 }			 
 			 }
 			 if(jump==0) {  
