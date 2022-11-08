@@ -20,7 +20,6 @@ public class FibonacciSerisi {
 				b=sonuc; //mevcut sayiyi tutuyoruz.
 				System.out.print(sonuc+" ");
 			
-			
 		}
 
 		
