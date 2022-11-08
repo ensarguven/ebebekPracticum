@@ -15,9 +15,9 @@ public class FibonacciSerisi {
 				System.out.print(a+" "+b+" ");
 			} 
 				sonuc = a+b;
-				a=b;
+				a=b; //bir onceki sayiyi tutuyoruz 
 				//System.out.println(b);
-				b=sonuc;
+				b=sonuc; //mevcut sayiyi tutuyoruz.
 				System.out.print(sonuc+" ");
 			
 			
