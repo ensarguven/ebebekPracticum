@@ -11,7 +11,7 @@ public class CinZodyagýHesapla {
 			
 		System.out.print("Dogum yilinizi giriniz : ");
 		yil = input.nextInt();
-		kalan = yil % 12;
+		kalan = yil % 12; //mod alma islemi
 		
 		
 		switch(kalan) {	

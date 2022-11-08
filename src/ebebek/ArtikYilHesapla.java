@@ -23,10 +23,10 @@ public class ArtikYilHesapla {
 
 			if (hesap2 == 0) {
 
-				System.out.println(yil + " bir artik yildir ! ");
+				System.out.println(yil + " artik yildir ! ");
 			} else {
 
-				System.out.println(yil + " bir artik yil degildir ! ");
+				System.out.println(yil + " artik yil degildir ! ");
 			}
 
 		} else {
@@ -36,10 +36,10 @@ public class ArtikYilHesapla {
 
 			if (hesap3 == 0) {
 
-				System.out.println(yil + " bir artık yildir ! ");
+				System.out.println(yil + " artık yildir ! ");
 			} else {
 
-				System.out.println(yil + " bir artık yil degildir ! ");
+				System.out.println(yil + "  artık yil degildir ! ");
 			}
 		}
 	}
