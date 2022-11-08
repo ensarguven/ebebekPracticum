@@ -19,6 +19,7 @@ public class vucutKitleEndeks {
 		double sonuc = kg /(m*m);
 		
 		System.out.println("Vücut Kitle Ýndeksiniz : " + sonuc);
+	
 		
 		
 	}
