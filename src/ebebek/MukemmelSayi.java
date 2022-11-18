@@ -21,12 +21,9 @@ public class MukemmelSayi {
 			
 		}
 		else {
+
 			System.out.println(x+" Mukemmel sayi degildir.");
 		}
-		
-		
-		
-
 	}
 
 }
